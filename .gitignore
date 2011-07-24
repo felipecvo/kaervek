@@ -4,3 +4,5 @@
 *.user
 Thumbs.db
 */images/banners
+*.pidb
+*.userprefs
