@@ -34,7 +34,7 @@
                 if (i == CurrentPage) {
                     builder.AppendFormat("<li class=\"current\">{0}</li>", i);
                 } else if (i == 1) {
-                    builder.AppendFormat("<li><a href=\"{0}\">{1}</a></li>", url);
+                    builder.AppendFormat("<li><a href=\"{0}\">{1}</a></li>", url, i);
                 } else {
                     builder.AppendFormat("<li><a href=\"{0}?page={1}\">{1}</a></li>", url, i);
                 }
